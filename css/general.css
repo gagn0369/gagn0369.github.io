@@ -18,9 +18,11 @@ section{
 	background-color: gray;
 }
 
+/* HEADER */
+
 .header{
-	padding-top: 3em;
-	padding-bottom:  3em;
+	background: transparent url("../img/placeholder.jpg") no-repeat center top;
+	background-size: cover;
 }
 
 .logo{
@@ -31,4 +33,32 @@ section{
 .page-title{
 	position: relative;
 	text-align: center;
+}
+
+.navigation{
+	background-color: #e9e9e9;
+	padding: 0;
+	margin: 0;
+}
+
+.nav{
+	margin: 0;
+	position: relative;
+	text-align: center;
+}
+
+.nav-link{
+	display: inline-block;
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+/* WHY */
+
+.why p{
+	position: relative;
+	text-align: center;
+	margin-left: 1em;
+	margin-right: 1em;
 }
