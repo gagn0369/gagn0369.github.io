@@ -9,15 +9,6 @@ img {
 	margin: 0 auto;
 }
 
-section{
-	padding-top: 1em;
-	padding-bottom: 1em;
-	margin:0.5em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	background-color: gray;
-}
-
 /* HEADER */
 
 .header{
@@ -26,6 +17,7 @@ section{
 }
 
 .logo{
+	margin-top: 4rem;
 	position: relative;
 	text-align: center;
 }
@@ -38,6 +30,7 @@ section{
 .navigation{
 	padding: 0;
 	margin: 0;
+	margin-bottom: 0.5rem;
 }
 
 .nav{
@@ -61,6 +54,20 @@ section{
 .why p{
 	position: relative;
 	text-align: center;
+	padding: 10% 0 10% 0;
 	margin-left: 1em;
 	margin-right: 1em;
+	line-height: 1.6;
 }
+
+/* ABOUT */
+
+.about{
+	margin-top: 
+}
+
+
+
+
+
+
