@@ -42,10 +42,11 @@ img {
 }
 
 .wordmark{
-	margin-top: 4rem;
+	margin-top: 8rem;
+	margin-bottom: 8rem;
 	position: relative;
 	text-align: center;
-	width: 70%;
+	width: 90%;
 	max-width: 10em;
 }
 
@@ -71,7 +72,6 @@ nav ul{
 }
 
 nav ul li{
-	color: white;
 	display: block;
 }
 
@@ -159,6 +159,10 @@ figure img:hover{
 
 /* ABOUT */
 
+.logo{
+	max-width: 50%;
+}
+
 
 /* FOOTER */
 
@@ -190,6 +194,13 @@ footer ul li{
 
 @media only screen and (min-width: 25em){
 
+.wordmark{
+	width: 70%;
+}
+
+.logo{
+	max-width: 90%;
+}
 
 }
 
@@ -202,9 +213,19 @@ nav ul li{
 
 }
 
+.bio{
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
 }
 
 @media only screen and (min-width: 60em){
+
+.bio{
+	font-size: 1.5em;
+	line-height: 1.5;
+}
 	
 }
 

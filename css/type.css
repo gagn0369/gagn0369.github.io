@@ -68,6 +68,18 @@ small, .milli {
 
 /*LINK STuFF*/
 
+nav ul li{
+  color: white;
+}
+
+nav ul li:hover{
+  color: black;
+  font-weight: 900;
+  -webkit-transition: all 0.5s ease;
+   -moz-transition:    all 0.5s ease;
+   -o-transition:      all 0.5s ease;
+}
+
 a{
   text-decoration: none;
   font-weight: 100;
@@ -75,10 +87,6 @@ a{
 
 a:hover, a:active{
   outline: none;
-}
-
-a:hover{
-  font-weight: 900;
 }
 
 a:focus,
