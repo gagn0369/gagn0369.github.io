@@ -93,6 +93,19 @@ figure{
 	margin: 0;
 }
 
+figure img{
+	opacity: 0.8;
+	transition: all 250ms linear;
+}
+
+figure img:hover{
+	opacity: 1.0;
+}
+
+.portfolio{
+	padding: 0.5rem;
+}
+
 /* ABOUT */
 
 
