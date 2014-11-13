@@ -117,7 +117,7 @@ figure:hover figcaption {
 figure:before {
   content: "?";
   position: absolute;
-  font-weight: 800;
+  font-weight: 900;
   background: black;
   background: rgba(255,255,255,0.75);
   text-shadow: 0 0 5px white;
@@ -128,7 +128,7 @@ figure:before {
   -moz-border-radius:    12px;
   border-radius:         12px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   -moz-transition: all 0.6s ease;
   opacity: 0.75;
@@ -187,7 +187,27 @@ footer ul li{
 }
 
 .social{
+	position: relative;
 	width: 2.5em;
+}
+
+.social:hover{
+	bottom: 0.25em;
+	-webkit-transition: all 0.5s ease;
+   -moz-transition:    all 0.5s ease;
+   -o-transition:      all 0.5s ease;
+}
+
+.email{
+	color: black;
+	text-decoration: none;
+}
+
+.email:hover{
+	font-size: 1.04rem;
+	-webkit-transition: all 0.3s ease;
+   -moz-transition:    all 0.3s ease;
+   -o-transition:      all 0.3s ease;
 }
 
 /* MEDIA QUERIES */
