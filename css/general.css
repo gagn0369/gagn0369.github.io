@@ -31,7 +31,6 @@ html, body{
 }
 
 img {
-	display: block;
 	margin: 0 auto;
 }
 
@@ -91,6 +90,29 @@ nav ul li{
 
 .about{
 	margin-top: 
+}
+
+/* FOOTER */
+
+.footer{
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer ul{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.footer ul li{
+	display: inline;
+	margin: 0;
+}
+
+.social{
+	width: 2em;
 }
 
 /* MEDIA QUERIES */
