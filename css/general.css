@@ -95,8 +95,10 @@ figure{
 
 /* ABOUT */
 
+
 /* FOOTER */
 
+.footer,
 footer ul{
 	margin: 0;
 	padding: 0;
@@ -112,8 +114,12 @@ footer ul li{
 	margin: 0 auto;
 }
 
+.follow{
+	width: 80%;
+}
+
 .social{
-	width: 2em;
+	width: 2.5em;
 }
 
 /* MEDIA QUERIES */
