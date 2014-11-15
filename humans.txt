@@ -1,14 +1,16 @@
 #PEOPLE
 
 Designer: Madeleine Gagné
-Email:
-Location:
-Twitter:
-Instagram:
+Email: hello@madeleinegagne.ca	
+Location: Ottawa, Ontario, Canada
+Twitter: @madeleineadele
+Instagram: @madeleineadele
 
 #THANKS
 
-code you've used, stock images, etc
+Slide in captions: http://css-tricks.com/slide-in-image-captions/
+
+Lightbox:
 
 #TOOLS
 
