@@ -60,9 +60,8 @@ header h2{
 nav{
 	position: relative;
 	text-align: center;
-	padding: 0;
 	margin: 0 auto;
-	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 nav ul{
@@ -72,6 +71,7 @@ nav ul{
 }
 
 nav ul li{
+	position: relative;
 	display: block;
 }
 
@@ -161,7 +161,8 @@ figure img:hover{
 /* ABOUT */
 
 .logo{
-	max-width: 50%;
+	width:10em;
+	max-width: 20em;
 	border-radius: 300px;
 }
 
