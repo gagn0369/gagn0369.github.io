@@ -49,12 +49,12 @@ img {
 	width: 90%;
 	max-width: 10em;
 
-	-webkit-animation: wordmark-down 2s ease;
+	-webkit-animation: wordmark-down 1.5s ease-out;
 }
 
 @-webkit-keyframes wordmark-down {
   0%   { 
-  	bottom: 10rem; 
+  	bottom: 15rem; 
   	opacity: 0;
   }
   100% { 
