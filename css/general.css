@@ -174,12 +174,18 @@ figure img:hover{
 
 /* FOOTER */
 
-.footer{
+footer{
 	background: transparent url("../img/placeholder.jpg") no-repeat center top;
 	background-size: cover;
 }
+	
+.footer{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	text-align: center;
+	margin: 0 auto;
+}
 
-.footer,
 footer ul{
 	margin: 0;
 	padding: 0;
@@ -196,9 +202,9 @@ footer ul li{
 }
 
 .follow{
-	width: 70%;
-	max-width: 25em;
-	margin-top: 1em;
+	width: 100%;
+	max-width: 30rem;
+	margin-top: 1rem;
 }
 
 .social{
@@ -215,7 +221,9 @@ footer ul li{
 
 .email{
 	color: black;
+	font-weight: 900;
 	text-decoration: none;
+	margin-top: -1em;
 }
 
 .email:hover{
