@@ -37,7 +37,7 @@ img {
 /* HEADER */
 
 .masthead{
-	background: transparent url("../img/placeholder.jpg") no-repeat center top;
+	background: transparent url("../img/placeholder-bw.jpg") no-repeat center top;
 	background-size: cover;
 }
 
@@ -166,6 +166,11 @@ figure img:hover{
 	border-radius: 300px;
 }
 
+.about{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
 
 /* FOOTER */
 
@@ -224,39 +229,59 @@ footer ul li{
 
 @media only screen and (min-width: 25em){
 
-.wordmark{
-	width: 70%;
-}
+	.wordmark{
+		width: 70%;
+	}
 
-.logo{
-	max-width: 90%;
-}
+	.logo{
+		max-width: 90%;
+	}
+
+	.about{
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
 
 }
 
 @media only screen and (min-width: 38em){
-	
-nav ul li{
-	display: inline-block;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-  	font-size: 1.2000rem;
 
-}
+	.wordmark{
+		margin-top: 10rem;
+		margin-bottom: 10rem;
+	}
+		
+	nav ul li{
+		display: inline-block;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	  	font-size: 1.2000rem;
 
-.why p{
-  font-size: 1.4400rem;
-  line-height: 1.5;
-}
+	}
 
-.bio{
-	font-size: 1.2em;
-	line-height: 1.5;
-}
+	.why p{
+	  font-size: 1.4400rem;
+	  line-height: 1.5;
+	}
+
+	.about{
+		padding-top: 6rem;
+		padding-bottom: 6rem;
+	}
+
+	.bio{
+		font-size: 1.2em;
+		line-height: 1.5;
+	}
 
 }
 
 @media only screen and (min-width: 60em){
+
+.wordmark{
+	margin-top: 12rem;
+	margin-bottom: 12rem;
+}
 
 nav ul li{
   	font-size: 1.3000rem;
@@ -267,6 +292,11 @@ nav ul li{
 	font-size: 2.0736rem;
   line-height: 1.5;
 }
+
+	.about{
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
 
 .bio{
 	font-size: 1.5em;
