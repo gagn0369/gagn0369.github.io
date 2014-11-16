@@ -57,6 +57,12 @@ img {
   	bottom: 15rem; 
   	opacity: 0;
   }
+
+  5%   { 
+  	bottom: 15rem; 
+  	opacity: 0;
+  }
+
   100% { 
   	bottom: 0; 
   	opacity: 1;
