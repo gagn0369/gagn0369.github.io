@@ -48,6 +48,19 @@ img {
 	text-align: center;
 	width: 90%;
 	max-width: 10em;
+
+	-webkit-animation: wordmark-down 2s ease;
+}
+
+@-webkit-keyframes wordmark-down {
+  0%   { 
+  	bottom: 10rem; 
+  	opacity: 0;
+  }
+  100% { 
+  	bottom: 0; 
+  	opacity: 1;
+  }
 }
 
 header h2{
@@ -203,7 +216,7 @@ footer ul li{
 
 .follow{
 	width: 100%;
-	max-width: 30rem;
+	max-width: 20rem;
 	margin-top: 1rem;
 }
 
@@ -282,34 +295,46 @@ footer ul li{
 		line-height: 1.5;
 	}
 
+	.social{
+	position: relative;
+	width: 3em;
+}
+
+
 }
 
 @media only screen and (min-width: 60em){
 
-.wordmark{
-	margin-top: 12rem;
-	margin-bottom: 12rem;
-}
-
-nav ul li{
-  	font-size: 1.3000rem;
-
-}
-
-.why p{
-	font-size: 2.0736rem;
-  line-height: 1.5;
-}
-
-	.about{
-		padding-top: 8rem;
-		padding-bottom: 8rem;
+	.wordmark{
+		margin-top: 12rem;
+		margin-bottom: 12rem;
 	}
 
-.bio{
-	font-size: 1.5em;
-	line-height: 1.5;
-}
+	nav ul li{
+	  	font-size: 1.3000rem;
+
+	}
+
+	.why p{
+		font-size: 2.0736rem;
+	  line-height: 1.5;
+	}
+
+		.about{
+			padding-top: 8rem;
+			padding-bottom: 8rem;
+		}
+
+	.bio{
+		font-size: 1.5em;
+		line-height: 1.5;
+	}
+
+	.social{
+		position: relative;
+		width: 3.5em;
+	}
+
 	
 }
 

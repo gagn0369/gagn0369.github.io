@@ -2,6 +2,7 @@ var $win = $(window);
 var $masthead = $(".masthead");
 var $footer = $(".footer");
 
+
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
   // var footerPos = (scrollPos - footerOffset.top) / 2;
