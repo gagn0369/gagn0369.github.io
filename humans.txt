@@ -10,6 +10,8 @@ Instagram: @madeleineadele
 
 Slide in captions: http://css-tricks.com/slide-in-image-captions/
 
+fancyBox (image viewer) http://fancyapps.com/fancybox/
+
 Lightbox:
 
 #TOOLS
