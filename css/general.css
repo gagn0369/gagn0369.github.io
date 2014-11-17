@@ -34,6 +34,15 @@ img {
 	margin: 0 auto;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.hidden{
+	display: none;
+}
+
 /* HEADER */
 
 .masthead{
@@ -50,9 +59,82 @@ img {
 	max-width: 10em;
 
 	-webkit-animation: wordmark-down 1.5s ease-out;
+	-moz-animation: wordmark-down 1.5s ease-out;
+	-o-animation: wordmark-down 1.5s ease-out;
+	animation: wordmark-down 1.5s ease-out;
+}
+
+/*WORDMARK ANIMATION*/
+
+@-webkit-keyframes wordmark-down {
+  0%   { 
+  	bottom: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	bottom: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	bottom: 0; 
+  	opacity: 1;
+  }
 }
 
 @-webkit-keyframes wordmark-down {
+  0%   { 
+  	bottom: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	bottom: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	bottom: 0; 
+  	opacity: 1;
+  }
+}
+
+@-moz-keyframes wordmark-down {
+  0%   { 
+  	bottom: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	bottom: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	bottom: 0; 
+  	opacity: 1;
+  }
+}
+
+@-o-keyframes wordmark-down {
+  0%   { 
+  	bottom: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	bottom: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	bottom: 0; 
+  	opacity: 1;
+  }
+}
+
+@keyframes wordmark-down {
   0%   { 
   	bottom: 15rem; 
   	opacity: 0;
@@ -77,16 +159,18 @@ header h2{
 }
 
 nav{
-	position: relative;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 1rem;
+	width: 100%;
 }
 
 nav ul{
-	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 1rem;
 }
 
 nav ul li{

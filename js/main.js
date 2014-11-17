@@ -11,6 +11,3 @@ $win.on('scroll', function () {
 
 	$footer.css('background-position', 'center ' + footerPos + 'px');
 });
-
-
-
