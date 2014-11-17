@@ -28,7 +28,7 @@
 	<meta name="twitter:image2" content="">
 	<meta name="twitter:image3" content="">
 
-	<link href="css/lightbox.css" rel="stylesheet" />
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<link href="css/type.css" rel="stylesheet">
 	<link href="css/grids.css" rel="stylesheet">
 	<link href="css/general.css" rel="stylesheet">
@@ -77,15 +77,15 @@
 
 		<div class="unit unit-s-1 unit-m-1 unit-l-1-3">
 			<figure class="cap-bottom">
-				<a href="img/placeholder.jpg" data-lightbox="kicking">
+				<a class="fancybox" rel="gallery1" href="img/placeholder.jpg">
 					<img class="flex" src="img/placeholder.jpg">
 				</a>
-					<a href="img/placeholder-bw.jpg" data-lightbox="kicking">
-						<img class="flex hidden" src="img/placeholder-bw.jpg">
-					</a>
-					<a href="img/placeholder.jpg" data-lightbox="kicking">
-						<img class="flex hidden" src="img/placeholder.jpg">
-					</a>
+				<a class="fancybox" rel="gallery1" href="img/placeholder-bw.jpg">
+					<img class="flex hidden" src="img/placeholder.jpg">
+				</a>
+				<a class="fancybox" rel="gallery1" href="img/placeholder-bw.jpg">
+					<img class="flex hidden" src="img/placeholder.jpg">
+				</a>
 				<figcaption>
 						KICKING HORSE PACKAGING
 				</figcaption>
@@ -95,7 +95,7 @@
 
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
 			<figure class="cap-bottom">
-				<img class="flex" src="img/placeholder.jpg">
+					<img class="flex" src="img/placeholder.jpg">
 				<figcaption>
 						IZZE CAMPAIGN
 				</figcaption>			
@@ -155,11 +155,15 @@
 
 		<div class="unit unit-s-1 unit-m-1 unit-l-1-3">
 			<figure class="cap-bottom">
-				<img class="flex" src="img/placeholder.jpg">
+				<a class="fancybox-media" href="https://vimeo.com/110632290">
+					<img class="flex" src="img/placeholder.jpg">
+				</a>
 				<figcaption>
 						RIOT BROADCAST PACKAGE
 				</figcaption>				
 			</figure>
+
+			<a class="fancybox-media" href="https://vimeo.com/110632290">open vimeo</a>
 
 		</div>
 
@@ -208,8 +212,36 @@
 <script src="js/waypoints-sticky.min.js"></script>
 <script src="js/main.js"></script>
 
-<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="js/lightbox.min.js"></script>
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	$(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+	$(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        padding : 0
+    });
+});
+
+	$(document).ready(function() {
+	$('.fancybox-media').fancybox({
+		helpers : {
+			media : {}
+		}
+	});
+});
+</script>
+
 
 </body>
 </html>
