@@ -180,6 +180,11 @@ nav ul li{
 
 /* WHY */
 
+.why{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
 .why p{
 	position: relative;
 	text-align: center;
@@ -278,7 +283,7 @@ figure img:hover{
 /* FOOTER */
 
 footer{
-	background: transparent url("../img/placeholder.jpg") no-repeat center top;
+	background: transparent url("../img/placeholder-light.jpg") no-repeat center top;
 	background-size: cover;
 }
 	
@@ -369,6 +374,11 @@ footer ul li{
 	  	font-size: 1.2000rem;
 
 	}
+
+	.why{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
 
 	.why p{
 	  font-size: 1.4400rem;
