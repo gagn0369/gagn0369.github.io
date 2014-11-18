@@ -57,6 +57,11 @@ img {
 	text-align: center;
 	width: 90%;
 	max-width: 10em;
+
+	-webkit-animation: wordmark-down 1.5s ease-out;
+	-moz-animation: wordmark-down 1.5s ease-out;
+	-o-animation: wordmark-down 1.5s ease-out;
+	animation: wordmark-down 1.5s ease-out;
 }
 
 

@@ -184,7 +184,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url('../img/fancybox/fancybox_overlay.png');
+	background: url('../img/fancybox/fancybox_overlay_2.png');
 }
 
 .fancybox-overlay-fixed {
@@ -202,7 +202,8 @@
 
 .fancybox-title {
 	visibility: hidden;
-	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: normal 1rem "museo-sans",sans-serif;
+	line-height: 1.7;
 	position: relative;
 	text-shadow: none;
 	z-index: 8050;
@@ -271,4 +272,23 @@
 		background-image: url('../img/fancyboxfancybox_loading@2x.gif');
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
+}
+
+/*controls for iframe*/
+
+.fancybox-type-iframe .fancybox-nav {
+    width: 60px;
+}
+.fancybox-type-iframe .fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+.fancybox-type-iframe .fancybox-nav:hover span {
+    opacity: 1;
+}
+.fancybox-type-iframe .fancybox-next {
+    right: -60px;
+}
+.fancybox-type-iframe .fancybox-prev {
+    left: -60px;
 }

@@ -153,8 +153,10 @@
 
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-2"> 
 			<figure class="cap-bottom">
-				<a class="fancybox-thumb" href="https://vimeo.com/89465945">
+				<a class="fancybox" rel="gallery8" data-fancybox-type="image"  href="img/girls-text.png">
 					<img class="flex" src="img/placeholder.jpg">
+				</a>
+				<a class="fancybox" rel="gallery8" title="Please watch in HD fo the best viewing experience." data-fancybox-type="iframe" href="http://player.vimeo.com/video/89465945">
 				</a>
 				<figcaption>
 						GIRLS STOP MOTION
@@ -195,8 +197,10 @@
 
 		<div class="unit unit-s-1 unit-m-1 unit-l-1-3">
 			<figure class="cap-bottom">
-				<a class="fancybox-media" href="https://vimeo.com/110632290">
+				<a class="fancybox" rel="gallery8" data-fancybox-type="image"  href="img/riot-text.png">
 					<img class="flex" src="img/placeholder.jpg">
+				</a>
+				<a class="fancybox" rel="gallery8" title="Please watch in HD fo the best viewing experience." data-fancybox-type="iframe" href="http://player.vimeo.com/video/110632290">
 				</a>
 				<figcaption>
 						RIOT BROADCAST PACKAGE
@@ -210,7 +214,7 @@
 	<div id="about" class="about grid">
 
 		<div class="unit unit-xs-1 unit-s-1-3 unit-m-1-4 island">
-			<img class="logo flex" src="http://lorempixel.com/100/100" alt="logo">
+			<img class="logo flex" src="http://placehold.it/200/200" alt="logo">
 		</div>
 
 		<div class="unit unit-xs-1 unit-s-2-3 unit m-3-4 island">
@@ -288,6 +292,15 @@ $(document).ready(function() {
 			}
 		}
 	});
+});
+
+$(".fancybox").fancybox({
+    // solves some issues with streamed media
+    iframe: {
+        preload: false
+    },
+    // Increase left/right margin for iframe content
+    margin: [20, 60, 20, 60]
 });
 
 </script>
