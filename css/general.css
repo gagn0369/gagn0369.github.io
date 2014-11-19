@@ -37,6 +37,9 @@ img {
 .sticky {
   position: fixed;
   top: 0;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
 }
 
 .hidden{
@@ -75,7 +78,6 @@ header h2{
 nav{
 	text-align: center;
 	margin: 0 auto;
-	margin-bottom: 1rem;
 	width: 100%;
 }
 
@@ -84,7 +86,6 @@ nav ul{
 	text-decoration: none;
 	text-align: center;
 	margin: 0 auto;
-	margin-bottom: 1rem;
 }
 
 nav ul li{
@@ -196,8 +197,8 @@ figure img:hover{
 
 /* FOOTER */
 
-footer{
-	background: transparent url("../img/placeholder-light.jpg") no-repeat center top;
+.contact{
+	background: transparent url("../img/placeholder-footer.jpg") no-repeat center top;
 	background-size: cover;
 }
 	
@@ -214,6 +215,7 @@ footer ul{
 	text-decoration: none;
 	text-align: center;
 	margin: 0 auto;
+	margin-top: -1rem;
 }
 
 footer ul li{
@@ -226,7 +228,6 @@ footer ul li{
 .follow{
 	width: 100%;
 	max-width: 20rem;
-	margin-top: 1rem;
 }
 
 .social{
@@ -413,7 +414,16 @@ footer ul li{
 	.social{
 	position: relative;
 	width: 3em;
-}
+	}
+
+	.follow{
+		margin-top: 1rem;
+	}
+
+	.contact{
+		background: transparent url("../img/placeholder-light.jpg") no-repeat center top;
+		background-size: cover;
+	}
 
 
 }
