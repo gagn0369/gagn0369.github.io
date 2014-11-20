@@ -29,3 +29,7 @@ $masthead.waypoint(function(direction) {
 		$wordmark.removeClass('wordmark-animate');
 	}
 });
+
+
+
+
