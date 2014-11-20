@@ -2,6 +2,7 @@ var $win = $(window);
 var $masthead = $(".masthead");
 var $nav = $(".nav-container");
 var $footer = $(".contact");
+var $wordmark = $(".wordmark")
 
 
 $win.on('scroll', function () {
@@ -18,5 +19,13 @@ $nav.waypoint(function(direction) {
 		$nav.addClass('sticky');
 	} else {
 		$nav.removeClass('sticky');
+	}
+});
+
+$masthead.waypoint(function(direction) {
+	if (direction == "down") {
+		$wordmark.addClass('wordmark-animate');
+	} else {
+		$wordmark.removeClass('wordmark-animate');
 	}
 });

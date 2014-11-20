@@ -250,7 +250,7 @@ footer ul li{
 }
 
 .email:hover{
-	font-size: 1.04rem;
+	color: white;
 	-webkit-transition: all 0.3s ease;
    -moz-transition:    all 0.3s ease;
    -o-transition:      all 0.3s ease;
@@ -260,22 +260,21 @@ footer ul li{
 
 @media only screen and (min-width: 25em){
 
-	.wordmark{
-		width: 70%;
-	}
-
-	.wordmark{
+.wordmark{
 	margin-top: 8rem;
 	margin-bottom: 8rem;
 	position: relative;
 	text-align: center;
 	width: 90%;
 	max-width: 10em;
+}
 
-	-webkit-animation: wordmark-down 1.5s ease-out;
-	-moz-animation: wordmark-down 1.5s ease-out;
-	-o-animation: wordmark-down 1.5s ease-out;
-	animation: wordmark-down 1.5s ease-out;
+.wordmark-animate{
+
+	-webkit-animation: wordmark-down 1.5s ease-out forwards;
+	-moz-animation: wordmark-down 1.5s ease-out forwards;
+	-o-animation: wordmark-down 1.5s ease-out forwards;
+	animation: wordmark-down 1.5s ease-out forwards;
 }
 
 /*WORDMARK ANIMATION*/
