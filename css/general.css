@@ -280,6 +280,11 @@ footer ul li{
 	-moz-animation: wordmark-down 1.5s ease-out forwards;
 	-o-animation: wordmark-down 1.5s ease-out forwards;
 	animation: wordmark-down 1.5s ease-out forwards;
+
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-delay: 2s;
 }
 
 /*WORDMARK ANIMATION*/
@@ -290,7 +295,7 @@ footer ul li{
   	opacity: 0;
   }
 
-  5%   { 
+  10%   { 
   	bottom: 15rem; 
   	opacity: 0;
   }
@@ -307,7 +312,7 @@ footer ul li{
   	opacity: 0;
   }
 
-  5%   { 
+  10%   { 
   	bottom: 15rem; 
   	opacity: 0;
   }
@@ -324,7 +329,7 @@ footer ul li{
   	opacity: 0;
   }
 
-  5%   { 
+  10%   { 
   	bottom: 15rem; 
   	opacity: 0;
   }
@@ -341,7 +346,7 @@ footer ul li{
   	opacity: 0;
   }
 
-  5%   { 
+  10%   { 
   	bottom: 15rem; 
   	opacity: 0;
   }
@@ -358,7 +363,7 @@ footer ul li{
   	opacity: 0;
   }
 
-  5%   { 
+  10%   { 
   	bottom: 15rem; 
   	opacity: 0;
   }
