@@ -203,7 +203,7 @@ figure img:hover{
 /* FOOTER */
 
 .contact{
-	background: transparent url("../img/placeholder-footer.jpg") no-repeat center top;
+	background: transparent url("../img/faux-2.jpg") no-repeat center top;
 	background-size: cover;
 }
 	
@@ -425,7 +425,7 @@ footer ul li{
 	}
 
 	.contact{
-		background: transparent url("../img/placeholder-light.jpg") no-repeat center top;
+		background: transparent url("../img/faux.jpg") no-repeat center top;
 		background-size: cover;
 	}
 
