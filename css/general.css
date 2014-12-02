@@ -188,7 +188,7 @@ figure img:hover{
 
 /* ABOUT */
 
-.logo{
+.profile{
 	width:10em;
 	max-width: 20em;
 	border-radius: 300px;
@@ -369,7 +369,7 @@ footer ul li{
   }
 }
 
-	.logo{
+	.profile{
 		max-width: 90%;
 	}
 
