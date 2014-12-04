@@ -254,7 +254,7 @@ footer ul li{
 	margin-top: -1em;
 }
 
-.email:hover{
+.email-address:hover{
 	color: white;
 	-webkit-transition: all 0.3s ease;
    -moz-transition:    all 0.3s ease;
