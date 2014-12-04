@@ -135,7 +135,7 @@
 	margin-top: -18px;
 	cursor: pointer;
 	z-index: 8040;
-	visibility: hidden;
+	visibility: visible;
 }
 
 .fancybox-prev span {
@@ -291,4 +291,14 @@
 }
 .fancybox-type-iframe .fancybox-prev {
     left: -60px;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 38em){
+
+	.fancybox-nav span {
+		visibility: hidden;
+	}
+
 }
