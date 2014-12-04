@@ -49,7 +49,7 @@ img {
 /* HEADER */
 
 .masthead{
-	background: transparent url("../img/placeholder-bw.jpg") no-repeat center top;
+	background: transparent url("../img/faux-banner.jpg") no-repeat center top;
 	background-size: cover;
 }
 
@@ -203,13 +203,12 @@ figure img:hover{
 /* FOOTER */
 
 .contact{
-	background: transparent url("../img/faux-2.jpg") no-repeat center top;
+	background: transparent url("../img/lily-desk-top-mobile.jpg") no-repeat center top;
 	background-size: cover;
 }
 	
 .footer{
 	padding-top: 4rem;
-	padding-bottom: 4rem;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -251,6 +250,7 @@ footer ul li{
 	color: black;
 	font-weight: 900;
 	text-decoration: none;
+	margin-bottom: 4em;
 	margin-top: -1em;
 }
 
@@ -259,6 +259,11 @@ footer ul li{
 	-webkit-transition: all 0.3s ease;
    -moz-transition:    all 0.3s ease;
    -o-transition:      all 0.3s ease;
+}
+
+.copyright{
+	background-color: gray;
+	padding-top: 1em;
 }
 
 /* MEDIA QUERIES */
@@ -425,7 +430,7 @@ footer ul li{
 	}
 
 	.contact{
-		background: transparent url("../img/faux.jpg") no-repeat center top;
+		background: transparent url("../img/lily-desk-top-mobile.jpg") no-repeat center top;
 		background-size: cover;
 	}
 
