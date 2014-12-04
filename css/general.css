@@ -38,7 +38,7 @@ img {
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(194,181,214,0.7);
   width: 100%;
 }
 
@@ -250,19 +250,18 @@ footer ul li{
 	color: black;
 	font-weight: 900;
 	text-decoration: none;
-	margin-bottom: 4em;
 	margin-top: -1em;
 }
 
 .email-address:hover{
-	color: white;
+	color: #C2B5D6;
 	-webkit-transition: all 0.3s ease;
    -moz-transition:    all 0.3s ease;
    -o-transition:      all 0.3s ease;
 }
 
 .copyright{
-	background-color: gray;
+	background-color: #C2B5D6;
 	padding-top: 1em;
 }
 
@@ -430,7 +429,7 @@ footer ul li{
 	}
 
 	.contact{
-		background: transparent url("../img/lily-desk-top-mobile.jpg") no-repeat center top;
+		background: transparent url("../img/lily-desk-top.jpg") no-repeat center top;
 		background-size: cover;
 	}
 
