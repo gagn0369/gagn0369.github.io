@@ -430,6 +430,14 @@ footer ul li{
 		padding-bottom: 4rem;
 	}
 
+	.contact ul{
+		margin-bottom: 3rem;
+	}
+
+	.follow{
+		margin-top: 3rem;
+	}
+
 }
 
 @media only screen and (min-width: 38em){
@@ -472,12 +480,16 @@ footer ul li{
 	width: 3em;
 	}
 
+	.contact ul{
+		margin-bottom: 4rem;
+	}
+
 	.follow{
-		margin-top: 1rem;
+		margin-top: 4rem;
 	}
 
 	.contact{
-		background: transparent url("../img/lily-desk-top.jpg") no-repeat center top;
+		background: transparent url("../img/lily-desk-top-med.jpg") no-repeat center top;
 		background-size: cover;
 	}
 
@@ -501,10 +513,10 @@ footer ul li{
 	  line-height: 1.5;
 	}
 
-		.about{
-			padding-top: 8rem;
-			padding-bottom: 8rem;
-		}
+	.about{
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
 
 	.bio{
 		font-size: 1.5em;
@@ -514,6 +526,18 @@ footer ul li{
 	.social{
 		position: relative;
 		width: 3.5em;
+	}
+
+	.contact ul{
+		margin-bottom: 6rem;
+	}
+
+	.follow{
+		margin-top: 6rem;
+	}
+	.contact{
+		background: transparent url("../img/lily-desk-top-large.jpg") no-repeat center top;
+		background-size: cover;
 	}
 
 	
