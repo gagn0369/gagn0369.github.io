@@ -265,6 +265,54 @@ footer ul li{
 	padding-top: 1em;
 }
 
+/* 404 PAGE */
+
+.error{
+	background: transparent url("../img/lily-desk-point.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+.click-here{
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 0.5em;
+	background-color: #76717f;
+}
+
+.error-links{
+	text-decoration: none;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.error-links:hover{
+	color: #C2B5D6;
+	-webkit-transition: all 0.3s ease;
+   -moz-transition:    all 0.3s ease;
+   -o-transition:      all 0.3s ease;
+}
+
+.error-social{
+	padding-top: 1.5em;
+}
+
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 25em){
