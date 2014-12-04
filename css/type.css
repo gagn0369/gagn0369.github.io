@@ -54,6 +54,7 @@ h6, .kilo {
 small, .milli {
   font-size: 0.8333rem;
   line-height: 1.8000;
+  color: white;
 }
 
 .micro {
