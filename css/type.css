@@ -85,7 +85,10 @@ a{
   font-size: 0.75em;
 }
 
-a:focus,
+.focus:focus{
+  outline: 3px solid black;
+}
+
 input:focus,
 button:focus{
   outline: 3px solid black;
