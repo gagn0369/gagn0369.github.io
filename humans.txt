@@ -1,3 +1,5 @@
+Thank you for visiting my website!
+
 #PEOPLE
 
 Designer: Madeleine Gagné
@@ -12,13 +14,13 @@ Slide in captions: http://css-tricks.com/slide-in-image-captions/
 
 fancyBox (image viewer) http://fancyapps.com/fancybox/
 
-Lightbox:
-
 #TOOLS
 
 Sublime Text 2
 Github
 Photoshop
 Illustrator
+InDesign
 Hover.com
+X-Icon Editor
 Pencils & Paper
