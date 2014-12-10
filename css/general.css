@@ -291,7 +291,7 @@ footer ul li{
 /* 404 PAGE */
 
 .error{
-	background: transparent url("../img/lily-desk-point.jpg") no-repeat center center fixed;
+	background: transparent url("../img/lily-desk-point-mobile.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -300,10 +300,8 @@ footer ul li{
 	color: white;
 }
 
-.click-here{
-	color: white;
-	text-align: center;
-	margin: 0 auto;
+.uh-oh{
+	font-size: 1.25rem;
 }
 
 .error-footer{
@@ -316,23 +314,24 @@ footer ul li{
 	background-color: #76717f;
 }
 
-.error-links{
-	text-decoration: none;
-	font-weight: 700;
+.error-footer p{
+	font-size: 0.75rem;
 	color: white;
-	text-align: center;
-	margin: 0 auto;
-}
-
-.error-links:hover{
-	color: #C2B5D6;
-	-webkit-transition: all 0.3s ease;
-   -moz-transition:    all 0.3s ease;
-   -o-transition:      all 0.3s ease;
 }
 
 .error-social{
 	padding-top: 1.5em;
+}
+
+.here{
+	font-weight: 100;
+	color: white;
+	border-bottom: solid white 1px;
+	text-decoration: none;
+}
+
+.here:hover{
+	font-weight: bold;
 }
 
 
@@ -519,6 +518,25 @@ footer ul li{
 	.contact{
 		background: transparent url("../img/lily-desk-top-med.jpg") no-repeat center top;
 		background-size: cover;
+	}
+
+	.error{
+	background: transparent url("../img/lily-desk-point.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+	.uh-oh{
+	font-size: 2rem;
+	}
+
+	.error-footer p{
+		font-size: 1rem;
+		color: white;
 	}
 
 
