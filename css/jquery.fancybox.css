@@ -120,11 +120,11 @@
 }
 
 .fancybox-prev {
-	left: 0;
+	left: -5em;
 }
 
 .fancybox-next {
-	right: 0;
+	right: -5em;
 }
 
 .fancybox-nav span {
@@ -141,11 +141,13 @@
 .fancybox-prev span {
 	left: 10px;
 	background-position: 0 -36px;
+	visibility: visible;
 }
 
 .fancybox-next span {
 	right: 10px;
 	background-position: 0 -72px;
+	visibility: visible;
 }
 
 .fancybox-nav:hover span {
