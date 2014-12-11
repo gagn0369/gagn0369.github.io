@@ -120,11 +120,11 @@
 }
 
 .fancybox-prev {
-	left: -5em;
+	left: -2em;
 }
 
 .fancybox-next {
-	right: -5em;
+	right: -2em;
 }
 
 .fancybox-nav span {
@@ -299,4 +299,5 @@
     left: -60px;
 }
 
-/*MEDIA QUERIES*/
+.fancybox-nav span {
+ visibility: visible;
