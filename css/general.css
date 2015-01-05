@@ -54,8 +54,7 @@ img {
 }
 
 .wordmark{
-	margin-top: 8rem;
-	margin-bottom: 8rem;
+	padding: 1.3em 0 1.3em 0;
 	position: relative;
 	text-align: center;
 	width: 90%;
@@ -103,7 +102,7 @@ nav ul li{
 .why p{
 	position: relative;
 	text-align: center;
-	padding: 10% 0 10% 0;
+	padding: 22% 8% 22% 8%;
 	margin-left: 1em;
 	margin-right: 1em;
 	line-height: 1.6;
