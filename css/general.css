@@ -188,9 +188,13 @@ figure img:hover{
 /* ABOUT */
 
 .profile{
-	width:10em;
+	width: 50%;
 	max-width: 20em;
 	border-radius: 300px;
+}
+
+.bio{
+	text-align: center;
 }
 
 .about{
@@ -442,13 +446,19 @@ footer ul li{
   }
 }
 
-	.profile{
-		max-width: 90%;
-	}
-
 	.about{
 		padding-top: 4rem;
 		padding-bottom: 4rem;
+	}
+
+	.profile{
+		width:40%;
+		max-width: 20em;
+		border-radius: 300px;
+	}
+
+	.bio{
+		text-align: left;
 	}
 
 	.contact ul{
@@ -489,6 +499,12 @@ footer ul li{
 	.why p{
 	  font-size: 1.4400rem;
 	  line-height: 1.5;
+	}
+
+	.profile{
+		width:80%;
+		max-width: 20em;
+		border-radius: 300px;
 	}
 
 	.about{
