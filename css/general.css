@@ -134,6 +134,10 @@ figcaption {
 	transition:      all 0.6s ease;
 }
 
+.tags{
+	font-size: 0.8rem;
+}
+
 figure:hover figcaption {
   opacity: 1;
 }
