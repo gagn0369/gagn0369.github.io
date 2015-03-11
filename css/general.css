@@ -94,15 +94,11 @@ nav ul li{
 
 /* WHY */
 
-.why{
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-}
 
 .why p{
 	position: relative;
 	text-align: center;
-	padding: 22% 8% 22% 8%;
+	padding: 15% 8% 15% 8%;
 	margin-left: 1em;
 	margin-right: 1em;
 	line-height: 1.6;
@@ -496,13 +492,8 @@ footer ul li{
 
 	}
 
-	.why{
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-}
-
 	.why p{
-	  font-size: 1.4400rem;
+	  font-size: 1.2rem;
 	  line-height: 1.5;
 	}
 
@@ -575,7 +566,7 @@ footer ul li{
 	}
 
 	.why p{
-		font-size: 2.0736rem;
+		font-size: 2rem;
 	  line-height: 1.5;
 	}
 
