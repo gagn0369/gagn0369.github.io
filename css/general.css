@@ -565,6 +565,10 @@ footer ul li{
 
 	}
 
+	.portfolio{
+	padding: 1.5rem;
+	}
+
 	.why p{
 		font-size: 2rem;
 	  line-height: 1.5;
