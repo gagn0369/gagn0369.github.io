@@ -38,7 +38,7 @@ img {
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: rgba(194,181,214,0.7);
+  background-color: rgba(194,181,214,0.85);
   width: 100%;
 }
 
