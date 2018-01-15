@@ -184,6 +184,9 @@ figure img:hover{
 .portfolio{
 	padding: 0.5rem;
 	max-width: 1440px;
+	margin: auto;
+	text-align: center;
+	position: relative;
 }
 
 /* ABOUT */
