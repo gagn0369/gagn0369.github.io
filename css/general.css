@@ -48,10 +48,9 @@ img {
 
 /* HEADER */
 
-.masthead{
-	background: transparent url("../img/magnolia.png") no-repeat center top;
-	background-size: cover;
-}
+/*.masthead{
+		background: transparent url("../img/magnolia.png") no-repeat center top;
+		background-size: cover;*/
 
 .wordmark{
 	padding: 1.3em 0 1.3em 0;
