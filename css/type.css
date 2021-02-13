@@ -70,6 +70,7 @@ small, .milli {
 
 nav ul li a{
   color: white;
+  font-weight: bold;
 }
 
 nav ul li a:hover{
