@@ -7,7 +7,7 @@ p, ul, ol, dl, dd,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.5rem;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .yotta {
@@ -38,7 +38,7 @@ h3, .tera {
 
 h4, .giga {
   font-size: 1.4400rem;
-  line-height: 1.0417;
+  line-height: 1.4;
 }
 
 h5, .mega {
