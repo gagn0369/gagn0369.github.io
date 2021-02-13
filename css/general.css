@@ -230,14 +230,16 @@ figure img:hover{
 /* FOOTER */
 
 .contact{
-	background: transparent url("../img/magnolia-footer.png") no-repeat center top;
+	background: transparent url("../img/magnolia-footer.png") no-repeat top;
 	background-size: cover;
-	min-height: 350px;
-	padding-top: 2em;
+	padding: 5% 15% 0 15%;
+}
+
+.contact h2{
+	margin-top: 1.5em;
 }
 	
 .footer{
-	padding-top: 4rem;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -282,14 +284,13 @@ footer ul li{
 
 .email{
 	color: black;
-	font-weight: 900;
+	font-weight: 300;
 	text-decoration: none;
-	margin-top: -1em;
-	font-size: 0.95em;
+	letter-spacing: -0.5px;
 }
 
 .email-address:hover{
-	color: #C2B5D6;
+	color: #FFFFFF;
 	-webkit-transition: all 0.3s ease;
    -moz-transition: all 0.3s ease;
    -o-transition: all 0.3s ease;
@@ -297,15 +298,15 @@ footer ul li{
 }
 
 .copyright{
-	padding-top: 1em;
+	padding-bottom: 0.5em;
 }
 
 .term-link{
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-weight: 100;
 	font-size: 0.75rem;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid black;
 }
 
 .term-link:hover{
@@ -383,6 +384,12 @@ footer ul li{
 	-o-animation: wordmark-down 1.5s ease-out forwards;
 	animation: wordmark-down 1.5s ease-out forwards;
 }
+
+.contact{
+	background: transparent url("../img/magnolia-footer-mobile.png") no-repeat top;
+	background-size: cover;
+	padding: 5% 15% 0 15%;
+	}
 
 /*WORDMARK ANIMATION*/
 
@@ -486,9 +493,9 @@ footer ul li{
 		text-align: left;
 	}
 
-	.contact ul{
+	/*.contact ul{
 		margin-bottom: 3rem;
-	}
+	}*/
 
 	.follow{
 		margin-top: 3rem;
@@ -501,11 +508,10 @@ footer ul li{
 	.masthead{
 		background: transparent url("../img/magnolia.png") no-repeat center top;
 		background-size: cover;
+		max-height: 90%;
 	}
 
 	.wordmark{
-		/*margin-top: 8rem;
-		margin-bottom: 8rem;*/
 		max-width: 12em;
 	}
 		
@@ -543,18 +549,11 @@ footer ul li{
 	width: 3em;
 	}
 
-	.contact ul{
-		margin-bottom: 4rem;
-	}
 
 	.follow{
 		margin-top: 4rem;
 	}
 
-	.contact{
-		background: transparent url("../img/lily-desk-top-med.jpg") no-repeat center top;
-		background-size: cover;
-	}
 
 	.error{
 	background: transparent url("../img/lily-desk-point.jpg") no-repeat center center fixed;
@@ -578,7 +577,7 @@ footer ul li{
 
 }
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 70em){
 
 	.wordmark{
 		/*margin-top: 10rem;
@@ -614,15 +613,13 @@ footer ul li{
 		width: 3.5em;
 	}
 
-	.contact ul{
-		margin-bottom: 6rem;
-	}
 
 	.follow{
 		margin-top: 6rem;
 	}
+
 	.contact{
-		background: transparent url("../img/lily-desk-top-large.jpg") no-repeat center top;
+		background: transparent url("../img/magnolia-footer.png") no-repeat center top;
 		background-size: cover;
 	}
 
